@@ -1,0 +1,47 @@
+{
+  "name": "screen-capture-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-firebase/app": "^17.5.0",
+    "@react-native-firebase/firestore": "^17.5.0",
+    "@react-native-firebase/storage": "^17.5.0",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.7",
+    "expo": "~48.0.15",
+    "expo-build-properties": "~0.6.0",
+    "expo-constants": "~14.2.1",
+    "expo-crypto": "~12.2.1",
+    "expo-dev-client": "^2.1.6",
+    "expo-file-system": "~15.2.2",
+    "expo-image": "^1.2.3",
+    "expo-image-picker": "~14.1.1",
+    "expo-linking": "~4.0.1",
+    "expo-router": "^1.5.3",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-ratings": "^8.1.0",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-view-shot": "3.5.0",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "babel-plugin-module-resolver": "^5.0.0"
+  },
+  "overrides": {
+    "metro": "0.76.0",
+    "metro-resolver": "0.76.0"
+  },
+  "private": true
+}
